@@ -1,8 +1,7 @@
 # Starman Web Port
 
-This project is a port of an old MS-DOS screensaver, originally written in Turbo C++, to a modern web-based version using HTML, CSS, and JavaScript.
-
-The primary goal was to explore the capabilities of Large Language Models (LLMs) in assisting with the code translation and adaptation process from a legacy language and environment (Turbo C++/MS-DOS graphics) to a current web stack.
+This project ports an MS‑DOS screensaver written in Turbo C++ to a modern web version using HTML, CSS, and JavaScript.  
+The primary goal is to explore how Large Language Models (LLMs) can assist in translating and adapting legacy Turbo C++/MS‑DOS graphics code for today’s web stack.
 
 ## Original Source
 
@@ -14,12 +13,25 @@ The ported web version is located in the `web` directory. Open `web/index.html` 
 
 ## Controls (Web Version)
 
--   **F**: Toggle Firefly Mode (makes stars race randomly)
--   **Space**: Make Stars Fall
--   **R**: Make Stars Race
--   **C**: Toggle Clock visibility
+- **F**: Toggle Firefly mode, making stars dart with random direction changes.  
+- **Space**: Make stars fall and accumulate at the bottom row.  
+- **R**: Make stars race in straight lines without direction changes.  
+- **C**: Toggle the clock display.
 
-## Screenshot
+When the clock hits a screen edge, it rotates around the contact point for three seconds. If it bounces off a corner, it rotates along both axes—creating a “shrink-and-grow” effect—then redraws its hands.
 
-![Screenshot of the Starman web port](screen.png)
+## Screenshots
+
+### Web Version
+
+![Screenshot of the Starman web port](screen-web.png)
+
+### MS‑DOS Emulator
+
+![MS‑DOS Moon](moon-msdos.png)
+![MS‑DOS scaceship](spaceship-msdos.png)
+![MS‑DOS wishworm](wishworm-msdos.png)
+
+
+
 
