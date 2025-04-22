@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars */
+    background-color: black; /* Default background */
+}
+
+canvas {
+    display: block; /* Remove extra space below canvas */
+}
