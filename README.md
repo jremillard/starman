@@ -5,7 +5,7 @@ The primary goal is to explore how Large Language Models (LLMs) can assist in tr
 
 ## Original Source
 
-The original Turbo C++ source code can be found in the `original-src` directory.
+The original MS-DOS Turbo C++ source code (Dec 1991) can be found in the `original-src` directory.
 
 ## Web Version
 
