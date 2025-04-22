@@ -31,6 +31,7 @@ When the clock hits a screen edge, it rotates around the contact point for three
 ![MS‑DOS Moon](moon-msdos.png)
 ![MS‑DOS scaceship](spaceship-msdos.png)
 ![MS‑DOS wishworm](wishworm-msdos.png)
+![MS‑DOS clock](clock-msdos.png)
 
 
 
